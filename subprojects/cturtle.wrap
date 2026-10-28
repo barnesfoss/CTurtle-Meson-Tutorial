@@ -1,0 +1,24 @@
+# This is a wrap file which declares how we are fulfilling a dependency
+
+# We are wrapping a github project, so we should use [wrap-git]
+# https://mesonbuild.com/Wrap-dependency-system-manual.html#wrap-format
+[wrap-git]
+
+# The directory the repo will be put out in
+# This is just a name it doesn't matter too much
+directory = C-Turtle 
+# The url of the Github repository we are pulling the dependency from
+url = https://github.com/barnesfoss/C-Turtle
+
+# Revision just means the branch
+revision = main
+
+# Depth is how many commits we remembering, this is a dependency so we don't really need them
+depth = 1
+
+# Dependencies this wrap file provides
+[provide]
+# The dependency name and what variable it's connected to
+# This is defined in the meson.build of the project we are pulling
+# https://github.com/barnesfoss/C-Turtle/blob/main/meson.build
+cturtle = cturtle_dep

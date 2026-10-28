@@ -1,0 +1,6 @@
+# Generally with Meson it's preferable to do a blacklist instead
+# But for the sake of simplicity we are using gitignore here
+# See example here https://github.com/barnesfoss/C-Turtle/blob/main/.gitignore
+build
+subprojects/*
+!subprojects/cturtle.wrap
