@@ -1,5 +1,5 @@
 # Using CTurtle with Meson
-<img src="assets/cturtle.gif">A turtle drawing the Meson logo</img><br>
+<img src=".github/assets/cturtle.gif">A turtle drawing the Meson logo</img><br>
 Meson is one of many different [*build automation systems*](https://en.wikipedia.org/wiki/Build_automation).<br>
 In C and C++ the most popular by far is [CMake](https://cmake.org/) which is an amazing software and pretty much the lingua franca, but Meson is significantly easier to work for new users and just as much utility.<br>
 ### Why
