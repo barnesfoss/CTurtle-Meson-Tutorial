@@ -4,9 +4,6 @@
 # https://mesonbuild.com/Wrap-dependency-system-manual.html#wrap-format
 [wrap-git]
 
-# The directory the repo will be put out in
-# This is just a name it doesn't matter too much
-directory = C-Turtle 
 # The url of the Github repository we are pulling the dependency from
 url = https://github.com/barnesfoss/C-Turtle
 
