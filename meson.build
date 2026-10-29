@@ -19,11 +19,11 @@ executable(
           # if you are on a *nix system this will be verbatim, but if it's windows it will
           # be the name+.exe
 
-  'main.cpp', # The file/files we are compiling together!
-             # In this project we only have main.cpp, but if you want more you can use a list using brackets.
+  'main.cpp', # The file/files we are compiling together,
+             # In this project we only have main.cpp, but if you want more you can use a list by using brackets.
 
   dependencies: dependency('cturtle') # Finally we need to actually include C-Turtle
-                                      # We do this by saying that main requires cturtle as a dependency
+                                      # We do this by saying that this executable requires cturtle as a dependency
                                       # This can either be pulled from your system or from a .wrap file
 )
 # For more info see https://mesonbuild.com/Reference-manual_functions.html#executable

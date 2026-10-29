@@ -10,7 +10,8 @@ url = https://github.com/barnesfoss/C-Turtle
 # Revision just means the branch
 revision = main
 
-# Depth is how many commits we remembering, this is a dependency so we don't really need them
+# Depth is how many commits we are remembering,
+# We generally don't ever need more than one.
 depth = 1
 
 # Dependencies this wrap file provides
